@@ -32,7 +32,7 @@ const ResumeViewer = ({ isResume, onClose }) => {
         <div className="flex flex-col gap-5">
           <div className="flex gap-5 items-center">
             <h1 className="text-3xl font-bold">Resume</h1>
-            <a href="/abhi_resume.pdf" download="abhi_resume.pdf">
+            <a href="abhi_resume.pdf" download="abhi_resume.pdf">
               <FaDownload className="w-7 h-7 text-amber-600" />
             </a>
           </div>
